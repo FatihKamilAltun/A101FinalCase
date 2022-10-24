@@ -33,9 +33,12 @@ public class HepsiBuradaPage {
     public WebElement firstProduct;
     @FindBy(xpath = "//button[@id='addToCart']")
     public WebElement addToCartButton;
-
-
-
+    @FindBy(xpath = "//button[@class='add-to-basket button small']")
+    public WebElement otherSellerAddToCartButton;
+    @FindBy(xpath = "//a[@class='checkoutui-Modal-2iZXl']")
+    public WebElement popUpXButton;
+    @FindBy(xpath = "//*[text()='Sepete git']")
+    public WebElement popUpViewCartButton;
 
 
 
