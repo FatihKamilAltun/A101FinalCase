@@ -35,7 +35,7 @@ public class Test01 {
         assert hepsiBuradaPage.successLogInText.isDisplayed();
 
         // Kullanıcı, burada satın almak istediği ürün için arama yapacaktır.
-        hepsiBuradaPage.searchBox.sendKeys(ConfigReader.getProperty("productToSearch"), Keys.ENTER);
+        hepsiBuradaPage.searchBox.sendKeys(ConfigReader.getProperty("productToSearch1"), Keys.ENTER);
 
         // Kullanıcı, ileride lazım olabileceğinden bulunduğu sayfanın "windowhandle" değerini alır.
         String firstTabWindowHandleHashCode = Driver.getDriver().getWindowHandle();
