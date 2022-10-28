@@ -31,7 +31,7 @@ public class HepsiBuradaPage {
     public WebElement searchBox;
     @FindBy(xpath = "(//div[@data-test-id='product-card-image-container'])[2]")
     public WebElement firstProduct;
-    @FindBy(xpath = "(//div[@data-test-id='product-card-image-container'])[4]")
+    @FindBy(xpath = "(//div[@data-test-id='product-card-image-container'])[2]")
     public WebElement secondProduct;
     @FindBy(xpath = "//button[@id='addToCart']")
     public WebElement addToCartButton;
