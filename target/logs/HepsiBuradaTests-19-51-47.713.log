@@ -1,0 +1,5 @@
+2022-10-31 19:51:47,711 INFO t.HepsiBuradaTest02 [main] Kullanici, ayni urunu ikinci saticidan da sepete ekler
+2022-10-31 19:51:47,895 INFO t.HepsiBuradaTest02 [main] Kullanici, ekledigi urunleri dogrulamak icin sepetim sayfasina gider
+2022-10-31 19:51:51,913 INFO t.HepsiBuradaTest02 [main] Kullanici, 'Sepetim' sayfasinda oldugunu dogrular
+2022-10-31 19:51:52,496 INFO t.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi ilk urunun Saatci Tevfik saticisindan oldugunu dogrular
+2022-10-31 19:51:52,708 INFO t.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar

@@ -1,0 +1,5 @@
+2022-10-31 19:49:34,231 INFO t.HepsiBuradaTest01 [main] Kullanici, hepsiburada.com sitesini ziyaret eder
+2022-10-31 19:49:37,627 INFO t.HepsiBuradaTest01 [main] Kullanici, cookie'leri kabul eder
+2022-10-31 19:49:37,791 INFO t.HepsiBuradaTest01 [main] Kullanici, 'Login or Signin butonunun uzerine gelir ve bekler
+2022-10-31 19:49:38,401 INFO t.HepsiBuradaTest01 [main] Kullanici, acilan pop-up'taki log-in butonuna tiklar
+2022-10-31 19:49:39,022 INFO t.HepsiBuradaTest01 [main] Kullanici, daha onceden olusturulmus bir emaili ilgili yere girer

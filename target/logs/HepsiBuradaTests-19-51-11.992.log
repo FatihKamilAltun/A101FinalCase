@@ -1,0 +1,5 @@
+2022-10-31 19:51:11,991 INFO t.HepsiBuradaTest01 [main] Kullanici, ikinci saticidan urun eklemek icin sayfayi asagiya kaydirir
+2022-10-31 19:51:12,509 INFO t.HepsiBuradaTest01 [main] Kullanici, ayni urunu ikinci saticidan da sepete ekler
+2022-10-31 19:51:12,666 INFO t.HepsiBuradaTest01 [main] Kullanici, ekledigi urunleri dogrulamak icin sepetim sayfasina gider
+2022-10-31 19:51:16,867 INFO t.HepsiBuradaTest01 [main] Kullanici, 'Sepetim' sayfasinda oldugunu dogrular
+2022-10-31 19:51:17,675 INFO t.HepsiBuradaTest01 [main] Kullanici, sepete ekledigi ilk urunun Plastik Dünyam saticisindan oldugunu dogrular

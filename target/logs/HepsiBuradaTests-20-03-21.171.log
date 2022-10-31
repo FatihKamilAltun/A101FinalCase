@@ -1,0 +1,4 @@
+2022-10-31 20:03:21,171 INFO t.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi diger urunun Bilgersaat saticisindan oldugunu dogrular
+2022-10-31 20:03:21,231 INFO t.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar
+2022-10-31 20:03:21,269 INFO t.HepsiBuradaTest02 [main] Kullanici, sepetteki urunlerin ekran goruntuleri sayesinde manuel oalrak da dogrular
+2022-10-31 20:03:21,431 WARN t.HepsiBuradaTest02 [main] Kullanici, acilan tum sayfalari kapatarak test islemine son verir

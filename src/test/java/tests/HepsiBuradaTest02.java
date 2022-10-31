@@ -9,7 +9,9 @@ import org.testng.asserts.SoftAssert;
 import pages.HepsiBuradaPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ScreenShot;
 
+import java.io.IOException;
 import java.util.Set;
 
 import static org.testng.Assert.assertTrue;
@@ -19,10 +21,11 @@ public class HepsiBuradaTest02 {
     Actions actions = new Actions(Driver.getDriver());
     HepsiBuradaPage hepsiBuradaPage = new HepsiBuradaPage();
     SoftAssert softAssert=new SoftAssert();
+    ScreenShot screenShot=new ScreenShot();
     private static Logger logger= LogManager.getLogger(HepsiBuradaTest02.class.getName());
 
     @Test
-    public void test02() throws InterruptedException {
+    public void test02() throws InterruptedException, IOException {
 
         logger.info("Kullanici, hepsiburada.com sitesini ziyaret eder");
         Driver.getDriver().get(ConfigReader.getProperty("hepsiburadaUrl"));
@@ -91,6 +94,9 @@ public class HepsiBuradaTest02 {
         logger.info("Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar");
         softAssert.assertTrue(hepsiBuradaPage.secondProductInfoBox.getText().contains(secondProductName));
         softAssert.assertAll();
+
+        logger.info("Kullanici, sepetteki urunlerin ekran goruntuleri sayesinde manuel oalrak da dogrular");
+        screenShot.getScreenshot("Sepetim sayfasi");
 
         logger.warn("Kullanici, acilan tum sayfalari kapatarak test islemine son verir");
         Driver.getDriver().quit();

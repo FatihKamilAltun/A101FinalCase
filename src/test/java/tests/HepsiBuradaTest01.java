@@ -11,6 +11,7 @@ import pages.HepsiBuradaPage;
 
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ScreenShot;
 
 import java.util.Set;
 
@@ -20,6 +21,8 @@ public class HepsiBuradaTest01 {
     HepsiBuradaLoginPage hepsiBuradaLoginPage=new HepsiBuradaLoginPage();
     HepsiBuradaPage hepsiBuradaPage = new HepsiBuradaPage();
     SoftAssert softAssert=new SoftAssert();
+
+    ScreenShot screenShot=new ScreenShot();
     private static Logger logger= LogManager.getLogger(HepsiBuradaTest01.class.getName());
 
 

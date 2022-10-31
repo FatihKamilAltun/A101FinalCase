@@ -1,0 +1,4 @@
+2022-10-31 19:51:17,745 INFO t.HepsiBuradaTest01 [main] Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar
+2022-10-31 19:51:17,871 INFO t.HepsiBuradaTest01 [main] Kullanici, sepete ekledigi diger urunun Vienev saticisindan oldugunu dogrular
+2022-10-31 19:51:17,931 INFO t.HepsiBuradaTest01 [main] Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar
+2022-10-31 19:51:17,972 WARN t.HepsiBuradaTest01 [main] Kullanici, acilan tum sayfalari kapatarak test islemine son verir

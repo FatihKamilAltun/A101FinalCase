@@ -1,0 +1,4 @@
+2022-10-31 19:51:05,522 INFO t.HepsiBuradaTest01 [main] Kullanici, Set araciligi ile buldugu yeni sekmenin 'windowhandle' degeri kullanarak driveri yeni sekmeye gecirir
+2022-10-31 19:51:05,531 INFO t.HepsiBuradaTest01 [main] Kullanici, yeni sekmede acilan urunun basligini ileride kullanacagi icin String bir variable'a atar
+2022-10-31 19:51:08,267 INFO t.HepsiBuradaTest01 [main] Kullanici, urunu ilk saticidan sepete ekler
+2022-10-31 19:51:08,476 INFO t.HepsiBuradaTest01 [main] Kullanici, urun eklendikten sonra cikan bilgilendirme pop-up'ini kapatir
