@@ -3,15 +3,19 @@ package tests;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import pages.HepsiBuradaPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
 import java.util.Set;
 
+import static org.testng.Assert.*;
+
 public class Test01 {
     Actions actions = new Actions(Driver.getDriver());
     HepsiBuradaPage hepsiBuradaPage = new HepsiBuradaPage();
+    SoftAssert softAssert=new SoftAssert();
 
 
     @Test
@@ -59,6 +63,8 @@ public class Test01 {
         Driver.getDriver().switchTo().window(secondTabWindowHandleHashCode);
 
         // Seçilen ürün için 2 tane farklı satıcıdan ürün seçilip sepete eklenir.
+        String firstProductName=hepsiBuradaPage.firstProductName.getText();
+        System.out.println(firstProductName);
         hepsiBuradaPage.addToCartButton.click();
         hepsiBuradaPage.popUpXButton.click();
         actions.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).perform();
@@ -67,40 +73,20 @@ public class Test01 {
 
         // Seçilen ürünün doğru olarak eklendiği ‘Sepetim’ sayfasında doğrulanmalıdır.
         hepsiBuradaPage.popUpViewCartButton.click();
+        softAssert.assertTrue(hepsiBuradaPage.cartPageText.isDisplayed());
 
+        System.out.println("First seller is : " + hepsiBuradaPage.firstSeller.getText());
+        System.out.println("Second seller is : " + hepsiBuradaPage.secondSeller.getText());
+        System.out.println("name : " + hepsiBuradaPage.firstProductName.getText());
 
+        System.out.println(hepsiBuradaPage.firstProductInfoBox.getText());
+        softAssert.assertTrue(hepsiBuradaPage.firstProductInfoBox.getText().contains(hepsiBuradaPage.firstSeller.getText()));
+        softAssert.assertTrue(hepsiBuradaPage.firstProductInfoBox.getText().contains(firstProductName));
 
+        System.out.println(hepsiBuradaPage.secondProductInfoBox.getText());
+        softAssert.assertTrue(hepsiBuradaPage.secondProductInfoBox.getText().contains(hepsiBuradaPage.secondSeller.getText()));
+        softAssert.assertTrue(hepsiBuradaPage.secondProductInfoBox.getText().contains(firstProductName));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // hepsiBuradaPage.addToCartButton.click();
-        /*Thread.sleep(2000);
-        actions.sendKeys(Keys.PAGE_DOWN).perform();
-        Thread.sleep(500);
-        hepsiBuradaPage.googleIleGirisYapButonu.click();
-        hepsiBuradaPage.emailBox.sendKeys(ConfigReader.getProperty("userMail"));
-        hepsiBuradaPage.ileriButonu.click();*/
 
 
     }
