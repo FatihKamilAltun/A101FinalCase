@@ -1,5 +1,0 @@
-2022-10-31 16:33:31,282 INFO t.l.HepsiBuradaTest01 [main] LOG INFO
-2022-10-31 16:33:31,286 DEBUG t.l.HepsiBuradaTest01 [main] LOG DEBUG
-2022-10-31 16:33:31,286 ERROR t.l.HepsiBuradaTest01 [main] LOG ERROR
-2022-10-31 16:33:31,286 FATAL t.l.HepsiBuradaTest01 [main] LOG FATAL
-2022-10-31 16:33:31,286 WARN t.l.HepsiBuradaTest01 [main] LOG WARN

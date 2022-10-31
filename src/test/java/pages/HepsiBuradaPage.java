@@ -13,18 +13,6 @@ public class HepsiBuradaPage {
 
     @FindBy(xpath = "//button[@id='onetrust-accept-btn-handler']")
     public WebElement acceptCookiesButton;
-    @FindBy(xpath = "(//span[@class='sf-OldMyAccount-d0xCHLV38UCH5cD9mOXq'])[1]")
-    public WebElement logInOrSignInButton;
-    @FindBy(xpath = "//a[@id='login']")
-    public WebElement popUpLogInButton;
-    @FindBy(xpath = "//input[@id='txtUserName']")
-    public WebElement emailOrPhoneNumberBox;
-    @FindBy(xpath = "//button[@id='btnLogin']")
-    public WebElement emailLogInButton;
-    @FindBy(xpath = "//input[@id='txtPassword']")
-    public WebElement passwordBox;
-    @FindBy(xpath = "//button[@id='btnEmailSelect']")
-    public WebElement passwordLogInButton;
     @FindBy(xpath = "//*[text()='Hesabım']")
     public WebElement successLogInText;
     @FindBy(xpath = "//input[@class='desktopOldAutosuggestTheme-UyU36RyhCTcuRs_sXL9b']")
