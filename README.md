@@ -18,7 +18,7 @@
 ### Framework
 ⚡I wrote the automation codes using the Java programming language within the scope of the given case. <br>
 ⚡I used Java and Object - Oriented Programming (OOP) concepts together. <br>
-⚡I used selenium while writing automation tests, I preferred testNG as framework. <br>
+⚡I used selenium while writing automation tests, I preferred TestNG as framework. <br>
 ⚡I built the TestNg framework on the POM (Page Object Model) pattern. <br>
 &emsp; ![image](https://user-images.githubusercontent.com/111094536/199253172-a581a0e7-a53e-48e9-b51d-d46f7ff0e25a.png) <br> <br> <hr>
 ### I used LOG4J for informational purposes at every step
