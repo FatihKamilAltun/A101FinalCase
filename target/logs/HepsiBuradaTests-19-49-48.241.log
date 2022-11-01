@@ -1,4 +1,0 @@
-2022-10-31 19:49:48,241 INFO t.HepsiBuradaTest01 [main] Kullanici, ileride lazim olabileceginden bulundugu sayfanin 'windowhandle' degerini alir
-2022-10-31 19:49:48,761 INFO t.HepsiBuradaTest01 [main] Kullanici, sayfayi daha iyi gorebilmek icin sayfayi biraz asagi kaydirir
-2022-10-31 19:49:53,149 INFO t.HepsiBuradaTest01 [main] Kullanici, arama sonucunda ekrana gele urun listesinden (veya tek bir sonuc da donmus olabilir) urun secer
-2022-10-31 19:49:53,901 INFO t.HepsiBuradaTest01 [main] Kullanici, urunun yeni bir sekmede acildigini gorur bu nedenle yeni sekmede islem yapabilmek icin 'windowhandles' degerlerini alip bir set'e atar

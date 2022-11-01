@@ -1,5 +1,0 @@
-2022-10-31 19:50:52,712 INFO t.HepsiBuradaTest01 [main] Kullanici, login butonuna tiklar
-2022-10-31 19:50:52,791 INFO t.HepsiBuradaTest01 [main] Kullanici, sifresini ilgili yere girer
-2022-10-31 19:50:53,909 INFO t.HepsiBuradaTest01 [main] Kullanici, sifresini girdikten sonra login butonuna tiklar
-2022-10-31 19:50:53,978 INFO t.HepsiBuradaTest01 [main] Kullanici, yonlendirmeden sonra gelen anasayfada kullanici girisinin yapildigini dogrular
-2022-10-31 19:51:00,012 INFO t.HepsiBuradaTest01 [main] Kullanici, istedigi urunu aratir ve 'enter' tusuna basar
