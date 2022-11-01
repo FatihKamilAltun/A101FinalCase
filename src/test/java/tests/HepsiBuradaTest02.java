@@ -96,7 +96,7 @@ public class HepsiBuradaTest02 {
         softAssert.assertAll();
 
         logger.info("Kullanici, sepetteki urunlerin ekran goruntuleri sayesinde manuel oalrak da dogrular");
-        screenShot.getScreenshot("Sepetim sayfasi");
+        screenShot.getScreenshot("Sepetim sayfasi ");
 
         logger.warn("Kullanici, acilan tum sayfalari kapatarak test islemine son verir");
         Driver.getDriver().quit();

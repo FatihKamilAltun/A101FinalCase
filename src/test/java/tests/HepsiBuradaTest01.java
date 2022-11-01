@@ -13,6 +13,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ScreenShot;
 
+import java.io.IOException;
 import java.util.Set;
 
 public class HepsiBuradaTest01 {
@@ -28,7 +29,7 @@ public class HepsiBuradaTest01 {
 
 
     @Test
-    public void test01() throws InterruptedException {
+    public void test01() throws InterruptedException, IOException {
 
         logger.info("Kullanici, hepsiburada.com sitesini ziyaret eder");
         Driver.getDriver().get(ConfigReader.getProperty("hepsiburadaUrl"));
@@ -56,6 +57,8 @@ public class HepsiBuradaTest01 {
 
         logger.info("Kullanici, yonlendirmeden sonra gelen anasayfada kullanici girisinin yapildigini dogrular");
         assert hepsiBuradaPage.successLogInText.isDisplayed();
+        logger.info("Kullanici, sayfanin ekran goruntusunu alarak anasayfada kullanici girisinin yapildigini 'Hesabim' yazisini gorerek manuel olarak da dogrular");
+        screenShot.getScreenshot("Basarili kullanici girisi ");
 
         logger.info("Kullanici, istedigi urunu aratir ve 'enter' tusuna basar");
         hepsiBuradaPage.searchBox.sendKeys(ConfigReader.getProperty("productToSearch1"), Keys.ENTER);
