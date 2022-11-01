@@ -13,6 +13,6 @@
 ⚡I created classes under the utilities package to be able to use it throughout the project. <br>
 &emsp; ![image](https://user-images.githubusercontent.com/111094536/199255082-2009b785-38f3-4d4a-9fe4-3a6a9418222b.png) <br> <br>
 ⚡In order for some tests to be verified manually, <br> 
-&emsp; I took a screenshot of the relevant page using the method I created in the screenshot class and saved it in the project. <br>
+&emsp; I took a screenshot of the relevant page using the method I created in the screenshot class and saved it in the &emsp; project. <br>
 &emsp; ![image](https://user-images.githubusercontent.com/111094536/199256634-150f3b2b-2b68-4740-99f5-03e2729349a2.png) <br>
 ![image](https://user-images.githubusercontent.com/111094536/199256788-a8bfa65d-296f-4a00-839a-a614858814fe.png)
