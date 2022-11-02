@@ -23,8 +23,8 @@
 &emsp; ![image](https://user-images.githubusercontent.com/111094536/199532815-ac3d2825-d46e-4fcc-8465-c0eb372d193e.png) <br> <br> <hr>
 ### I used LOG4J for informational purposes at every step
 ⚡Log4j, showed me the steps one by one, both in console and on file. <br>
-&emsp; ![image](https://user-images.githubusercontent.com/111094536/199533173-2ff3c726-ad9d-4e7e-b3b3-31601d823856.png) <br>
-![image](https://user-images.githubusercontent.com/111094536/199533566-2023358c-d17e-42b7-92a1-7c8d70da7456.png) <br> <br>
+&emsp; ![image](https://user-images.githubusercontent.com/111094536/199552443-9c3ae5cd-a588-428c-8854-9a1e34fa4458.png)  <br>
+![image](https://user-images.githubusercontent.com/111094536/199552590-c44e4c6c-bcd3-4e54-b277-ef730e387069.png) <br> <br>
 ⚡I used the assert class to show that the script is working correctly. <br>
 ⚡I used the actions class to use the keyboard and mouse movements comfortably. <br>
 ⚡I created classes under the utilities package to be able to use it throughout the project. <br>
@@ -32,8 +32,9 @@
 ### I used the screenshot class
 ⚡In order for some tests to be verified manually, <br> 
 &emsp; I took a screenshot of the relevant page using the method I created in the screenshot class and saved it in the <br> &emsp; project. <br>
-&emsp; ![image](https://user-images.githubusercontent.com/111094536/199533799-c8fd9eea-8b4b-497a-a6f5-a86cb9ea2a99.png) <br>
-![image](https://user-images.githubusercontent.com/111094536/199534052-38f248e6-0880-4e02-8915-775986841c0c.png) <br> <hr>
+&emsp; ![image](https://user-images.githubusercontent.com/111094536/199552822-3a9b459f-6df9-4d9a-9664-d72f02ced8fc.png) <br>
+![image](https://user-images.githubusercontent.com/111094536/199553084-6a8c9eab-7818-4750-a10b-d62dbda1c0b9.png) <br> <hr>
 ### I used the configuration.properties file <br> <hr>
-⚡I aimed to write cleaner code with this file
+⚡I aimed to write cleaner code with this file <br>
+&emsp; ![Adsız](https://user-images.githubusercontent.com/111094536/199555634-c52c3aff-fba9-4f94-903c-50c9ac63403a.png)
 ### Project execution video
