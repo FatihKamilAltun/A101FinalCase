@@ -1,0 +1,5 @@
+2022-11-02 19:52:47,627 INFO t.h.HepsiBuradaTest01 [main] Kullanici, login butonuna tiklar
+2022-11-02 19:52:47,681 INFO t.h.HepsiBuradaTest01 [main] Kullanici, sifresini ilgili yere girer
+2022-11-02 19:52:48,715 INFO t.h.HepsiBuradaTest01 [main] Kullanici, sifresini girdikten sonra login butonuna tiklar
+2022-11-02 19:52:48,765 INFO t.h.HepsiBuradaTest01 [main] Kullanici, yonlendirmeden sonra gelen anasayfada kullanici girisinin yapildigini dogrular
+2022-11-02 19:52:53,992 INFO t.h.HepsiBuradaTest01 [main] Kullanici, sayfanin ekran goruntusunu alarak anasayfada kullanici girisinin yapildigini 'Hesabim' yazisini gorerek manuel olarak da dogrular

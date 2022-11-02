@@ -1,0 +1,4 @@
+2022-11-02 19:53:07,619 INFO t.h.HepsiBuradaTest01 [main] Kullanici, 'Sepetim' sayfasinda oldugunu dogrular
+2022-11-02 19:53:08,097 INFO t.h.HepsiBuradaTest01 [main] Kullanici, sepete ekledigi ilk urunun Plastik Dünyam saticisindan oldugunu dogrular
+2022-11-02 19:53:08,145 INFO t.h.HepsiBuradaTest01 [main] Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar
+2022-11-02 19:53:08,180 INFO t.h.HepsiBuradaTest01 [main] Kullanici, sepete ekledigi diger urunun Vienev saticisindan oldugunu dogrular

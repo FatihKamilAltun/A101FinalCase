@@ -1,0 +1,3 @@
+2022-11-02 19:53:08,256 INFO t.h.HepsiBuradaTest01 [main] Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar
+2022-11-02 19:53:08,302 INFO t.h.HepsiBuradaTest01 [main] Kullanici, sepetteki urunlerin ekran goruntuleri sayesinde manuel oalrak da dogrular
+2022-11-02 19:53:08,411 WARN t.h.HepsiBuradaTest01 [main] Kullanici, acilan tum sayfalari kapatarak test islemine son verir
