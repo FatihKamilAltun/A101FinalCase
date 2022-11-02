@@ -40,3 +40,4 @@
 &emsp; ![Adsız1](https://user-images.githubusercontent.com/111094536/199559318-4ff5b92a-2fe5-4ea6-8010-7495cf882e21.jpg)
 
 ### Project execution video
+https://drive.google.com/drive/u/0/my-drive
