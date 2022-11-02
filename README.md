@@ -36,5 +36,7 @@
 ![image](https://user-images.githubusercontent.com/111094536/199553084-6a8c9eab-7818-4750-a10b-d62dbda1c0b9.png) <br> <hr>
 ### I used the configuration.properties file <br> <hr>
 ⚡I aimed to write cleaner code with this file <br>
-&emsp; ![Adsız](https://user-images.githubusercontent.com/111094536/199555634-c52c3aff-fba9-4f94-903c-50c9ac63403a.png)
+&emsp; ![Adsız2](https://user-images.githubusercontent.com/111094536/199559140-ed8eba2f-dc29-431a-8787-c617bffb8a11.jpg) <br>
+&emsp; ![Adsız1](https://user-images.githubusercontent.com/111094536/199559318-4ff5b92a-2fe5-4ea6-8010-7495cf882e21.jpg)
+
 ### Project execution video
