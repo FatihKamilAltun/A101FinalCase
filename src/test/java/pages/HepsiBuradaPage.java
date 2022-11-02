@@ -47,14 +47,6 @@ public class HepsiBuradaPage {
 
 
 
-   /* @FindBy(xpath = "//button[@id='btnGoogle']")
-    public WebElement googleIleGirisYapButonu;
-
-    @FindBy(xpath = "//input[@id='identifierId']")
-    public WebElement emailBox;
-
-    @FindBy(xpath = "//*[text()='İleri']")
-    public WebElement ileriButonu;*/
 
 
 

@@ -58,7 +58,7 @@ public class HepsiBuradaTest01 {
         logger.info("Kullanici, yonlendirmeden sonra gelen anasayfada kullanici girisinin yapildigini dogrular");
         assert hepsiBuradaPage.successLogInText.isDisplayed();
         logger.info("Kullanici, sayfanin ekran goruntusunu alarak anasayfada kullanici girisinin yapildigini 'Hesabim' yazisini gorerek manuel olarak da dogrular");
-        screenShot.getScreenshot("Basarili kullanici girisi ");
+        screenShot.getScreenshot("Test01-Basarili kullanici girisi ");
 
         logger.info("Kullanici, istedigi urunu aratir ve 'enter' tusuna basar");
         hepsiBuradaPage.searchBox.sendKeys(ConfigReader.getProperty("productToSearch1"), Keys.ENTER);
@@ -102,6 +102,7 @@ public class HepsiBuradaTest01 {
 
         logger.info("Kullanici, ayni urunu ikinci saticidan da sepete ekler");
         hepsiBuradaPage.otherSellerAddToCartButton.click();
+        Thread.sleep(500);
 
         logger.info("Kullanici, ekledigi urunleri dogrulamak icin sepetim sayfasina gider");
         hepsiBuradaPage.popUpViewCartButton.click();
@@ -115,12 +116,14 @@ public class HepsiBuradaTest01 {
         logger.info("Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar");
         softAssert.assertTrue(hepsiBuradaPage.firstProductInfoBox.getText().contains(firstProductName));
 
-
         logger.info("Kullanici, sepete ekledigi diger urunun " + hepsiBuradaPage.secondSeller.getText() + " saticisindan oldugunu dogrular");
         softAssert.assertTrue(hepsiBuradaPage.secondProductInfoBox.getText().contains(hepsiBuradaPage.secondSeller.getText()));
 
         logger.info("Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar");
         softAssert.assertTrue(hepsiBuradaPage.secondProductInfoBox.getText().contains(firstProductName));
+
+        logger.info("Kullanici, sepetteki urunlerin ekran goruntuleri sayesinde manuel oalrak da dogrular");
+        screenShot.getScreenshot("Test01-Sepetim sayfasi ");
 
         logger.warn("Kullanici, acilan tum sayfalari kapatarak test islemine son verir");
         Driver.getDriver().quit();

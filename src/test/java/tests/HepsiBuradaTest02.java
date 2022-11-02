@@ -38,7 +38,7 @@ public class HepsiBuradaTest02 {
         Thread.sleep(500);
 
         logger.info("Kullanici, istedigi urunu aratir ve 'enter' tusuna basar");
-        hepsiBuradaPage.searchBox.sendKeys(ConfigReader.getProperty("productToSearch2"), Keys.ENTER);
+        hepsiBuradaPage.searchBox.sendKeys(ConfigReader.getProperty("productToSearch1"), Keys.ENTER);
         Thread.sleep(500);
 
         logger.info("Kullanici, sayfayi daha iyi gorebilmek icin sayfayi biraz asagi kaydirir");
@@ -75,6 +75,7 @@ public class HepsiBuradaTest02 {
 
         logger.info("Kullanici, ayni urunu ikinci saticidan da sepete ekler");
         hepsiBuradaPage.otherSellerAddToCartButton.click();
+        Thread.sleep(500);
 
         logger.info("Kullanici, ekledigi urunleri dogrulamak icin sepetim sayfasina gider");
         hepsiBuradaPage.popUpViewCartButton.click();
@@ -96,7 +97,7 @@ public class HepsiBuradaTest02 {
         softAssert.assertAll();
 
         logger.info("Kullanici, sepetteki urunlerin ekran goruntuleri sayesinde manuel oalrak da dogrular");
-        screenShot.getScreenshot("Sepetim sayfasi ");
+        screenShot.getScreenshot("Test02-Sepetim sayfasi ");
 
         logger.warn("Kullanici, acilan tum sayfalari kapatarak test islemine son verir");
         Driver.getDriver().quit();
