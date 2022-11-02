@@ -20,11 +20,11 @@
 ⚡I used Java and Object - Oriented Programming (OOP) concepts together. <br>
 ⚡I used selenium while writing automation tests, I preferred TestNG as framework. <br>
 ⚡I built the TestNg framework on the POM (Page Object Model) pattern. <br>
-&emsp; ![image](https://user-images.githubusercontent.com/111094536/199253172-a581a0e7-a53e-48e9-b51d-d46f7ff0e25a.png) <br> <br> <hr>
+&emsp; ![image](https://user-images.githubusercontent.com/111094536/199532815-ac3d2825-d46e-4fcc-8465-c0eb372d193e.png) <br> <br> <hr>
 ### I used LOG4J for informational purposes at every step
 ⚡Log4j, showed me the steps one by one, both in console and on file. <br>
-&emsp; ![image](https://user-images.githubusercontent.com/111094536/199254315-8b2afb49-e309-4014-863c-bf48f35a590c.png) <br>
-![image](https://user-images.githubusercontent.com/111094536/199254481-9e8d6592-52d1-4978-8f5a-1a0fd72ad210.png) <br> <br>
+&emsp; ![image](https://user-images.githubusercontent.com/111094536/199533173-2ff3c726-ad9d-4e7e-b3b3-31601d823856.png) <br>
+![image](https://user-images.githubusercontent.com/111094536/199533566-2023358c-d17e-42b7-92a1-7c8d70da7456.png) <br> <br>
 ⚡I used the assert class to show that the script is working correctly. <br>
 ⚡I used the actions class to use the keyboard and mouse movements comfortably. <br>
 ⚡I created classes under the utilities package to be able to use it throughout the project. <br>
@@ -32,6 +32,6 @@
 ### I used the screenshot class
 ⚡In order for some tests to be verified manually, <br> 
 &emsp; I took a screenshot of the relevant page using the method I created in the screenshot class and saved it in the <br> &emsp; project. <br>
-&emsp; ![image](https://user-images.githubusercontent.com/111094536/199256634-150f3b2b-2b68-4740-99f5-03e2729349a2.png) <br>
-![image](https://user-images.githubusercontent.com/111094536/199256788-a8bfa65d-296f-4a00-839a-a614858814fe.png) <br> <hr>
+&emsp; ![image](https://user-images.githubusercontent.com/111094536/199533799-c8fd9eea-8b4b-497a-a6f5-a86cb9ea2a99.png) <br>
+![image](https://user-images.githubusercontent.com/111094536/199534052-38f248e6-0880-4e02-8915-775986841c0c.png) <br> <hr>
 ### Project execution video
