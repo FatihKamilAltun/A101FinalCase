@@ -34,4 +34,6 @@
 &emsp; I took a screenshot of the relevant page using the method I created in the screenshot class and saved it in the <br> &emsp; project. <br>
 &emsp; ![image](https://user-images.githubusercontent.com/111094536/199533799-c8fd9eea-8b4b-497a-a6f5-a86cb9ea2a99.png) <br>
 ![image](https://user-images.githubusercontent.com/111094536/199534052-38f248e6-0880-4e02-8915-775986841c0c.png) <br> <hr>
+### I used the configuration.properties file <br> <hr>
+⚡I aimed to write cleaner code with this file
 ### Project execution video
