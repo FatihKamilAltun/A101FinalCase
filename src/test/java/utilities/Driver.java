@@ -21,9 +21,9 @@ public class Driver {
                     options.addArguments("--incognito");
                     options.addArguments("--ignore-certificate-errors");
                     options.addArguments("--allow-insecure-localhost");
+                    options.addArguments("--disable-blink-features");
                     options.addArguments("--acceptInsecureCerts");
                     options.addArguments("--disable-blink-features=AutomationControlled");
-                    options.addArguments("--disable-blink-features");
                     options.addArguments("--start-maximized");
                     options.addArguments("--disable-extensions");
                     WebDriverManager.chromedriver().setup();

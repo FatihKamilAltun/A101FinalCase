@@ -1,4 +1,4 @@
-package tests;
+package tests.hepsiBuradaTests;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -65,6 +65,7 @@ public class HepsiBuradaTest02 {
 
         logger.info("Kullanici, urunu ilk saticidan sepete ekler");
         hepsiBuradaPage.addToCartButton.click();
+        Thread.sleep(500);
 
         logger.info("Kullanici, urun eklendikten sonra cikan bilgilendirme pop-up'ini kapatir");
         hepsiBuradaPage.popUpXButton.click();

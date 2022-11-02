@@ -1,4 +1,4 @@
-package tests;
+package tests.hepsiBuradaTests;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -19,13 +19,12 @@ import java.util.Set;
 public class HepsiBuradaTest01 {
 
     Actions actions = new Actions(Driver.getDriver());
-    HepsiBuradaLoginPage hepsiBuradaLoginPage=new HepsiBuradaLoginPage();
+    HepsiBuradaLoginPage hepsiBuradaLoginPage = new HepsiBuradaLoginPage();
     HepsiBuradaPage hepsiBuradaPage = new HepsiBuradaPage();
-    SoftAssert softAssert=new SoftAssert();
+    SoftAssert softAssert = new SoftAssert();
 
-    ScreenShot screenShot=new ScreenShot();
-    private static Logger logger= LogManager.getLogger(HepsiBuradaTest01.class.getName());
-
+    ScreenShot screenShot = new ScreenShot();
+    private static Logger logger = LogManager.getLogger(HepsiBuradaTest01.class.getName());
 
 
     @Test
@@ -76,11 +75,11 @@ public class HepsiBuradaTest01 {
         Thread.sleep(500);
 
         logger.info("Kullanici, urunun yeni bir sekmede acildigini gorur bu nedenle yeni sekmede islem yapabilmek icin 'windowhandles' degerlerini alip bir set'e atar");
-        Set<String> windowHandleseti= Driver.getDriver().getWindowHandles();
-        String secondTabWindowHandleHashCode="";
-        for (String each: windowHandleseti) {
-            if (!each.equals(firstTabWindowHandleHashCode)){
-                secondTabWindowHandleHashCode=each;
+        Set<String> windowHandleseti = Driver.getDriver().getWindowHandles();
+        String secondTabWindowHandleHashCode = "";
+        for (String each : windowHandleseti) {
+            if (!each.equals(firstTabWindowHandleHashCode)) {
+                secondTabWindowHandleHashCode = each;
             }
         }
 
@@ -88,10 +87,11 @@ public class HepsiBuradaTest01 {
         Driver.getDriver().switchTo().window(secondTabWindowHandleHashCode);
 
         logger.info("Kullanici, yeni sekmede acilan urunun basligini ileride kullanacagi icin String bir variable'a atar");
-        String firstProductName=hepsiBuradaPage.firstProductName.getText();
+        String firstProductName = hepsiBuradaPage.firstProductName.getText();
 
         logger.info("Kullanici, urunu ilk saticidan sepete ekler");
         hepsiBuradaPage.addToCartButton.click();
+        Thread.sleep(1000);
 
         logger.info("Kullanici, urun eklendikten sonra cikan bilgilendirme pop-up'ini kapatir");
         hepsiBuradaPage.popUpXButton.click();
@@ -127,7 +127,6 @@ public class HepsiBuradaTest01 {
 
         logger.warn("Kullanici, acilan tum sayfalari kapatarak test islemine son verir");
         Driver.getDriver().quit();
-
 
 
     }
