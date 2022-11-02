@@ -1,3 +1,0 @@
-2022-11-02 18:33:02,501 INFO t.h.HepsiBuradaTest01 [main] Kullanici, urunun yeni bir sekmede acildigini gorur bu nedenle yeni sekmede islem yapabilmek icin 'windowhandles' degerlerini alip bir set'e atar
-2022-11-02 18:33:02,513 INFO t.h.HepsiBuradaTest01 [main] Kullanici, Set araciligi ile buldugu yeni sekmenin 'windowhandle' degeri kullanarak driveri yeni sekmeye gecirir
-2022-11-02 18:33:02,517 INFO t.h.HepsiBuradaTest01 [main] Kullanici, yeni sekmede acilan urunun basligini ileride kullanacagi icin String bir variable'a atar

@@ -1,5 +1,0 @@
-2022-11-02 18:26:07,377 INFO t.h.HepsiBuradaTest02 [main] Kullanici, hepsiburada.com sitesini ziyaret eder
-2022-11-02 18:26:11,080 INFO t.h.HepsiBuradaTest02 [main] Kullanici, cookie'leri kabul eder
-2022-11-02 18:26:11,259 INFO t.h.HepsiBuradaTest02 [main] Kullanici, ileride lazim olabileceginden bulundugu sayfanin 'windowhandle' degerini alir
-2022-11-02 18:26:11,774 INFO t.h.HepsiBuradaTest02 [main] Kullanici, istedigi urunu aratir ve 'enter' tusuna basar
-2022-11-02 18:26:12,450 INFO t.h.HepsiBuradaTest02 [main] Kullanici, sayfayi daha iyi gorebilmek icin sayfayi biraz asagi kaydirir

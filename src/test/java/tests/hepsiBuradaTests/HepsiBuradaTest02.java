@@ -38,7 +38,7 @@ public class HepsiBuradaTest02 {
         Thread.sleep(500);
 
         logger.info("Kullanici, istedigi urunu aratir ve 'enter' tusuna basar");
-        hepsiBuradaPage.searchBox.sendKeys(ConfigReader.getProperty("productToSearch1"), Keys.ENTER);
+        hepsiBuradaPage.searchBox.sendKeys(ConfigReader.getProperty("productToSearch2"), Keys.ENTER);
         Thread.sleep(500);
 
         logger.info("Kullanici, sayfayi daha iyi gorebilmek icin sayfayi biraz asagi kaydirir");

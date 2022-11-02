@@ -1,4 +1,0 @@
-2022-11-02 18:32:58,120 INFO t.h.HepsiBuradaTest01 [main] Kullanici, istedigi urunu aratir ve 'enter' tusuna basar
-2022-11-02 18:32:58,267 INFO t.h.HepsiBuradaTest01 [main] Kullanici, ileride lazim olabileceginden bulundugu sayfanin 'windowhandle' degerini alir
-2022-11-02 18:32:58,770 INFO t.h.HepsiBuradaTest01 [main] Kullanici, sayfayi daha iyi gorebilmek icin sayfayi biraz asagi kaydirir
-2022-11-02 18:33:01,817 INFO t.h.HepsiBuradaTest01 [main] Kullanici, arama sonucunda ekrana gele urun listesinden (veya tek bir sonuc da donmus olabilir) urun secer
