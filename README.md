@@ -32,7 +32,7 @@
 ### I used the screenshot class
 ⚡In order for some tests to be verified manually, <br> 
 &emsp; I took a screenshot of the relevant page using the method I created in the screenshot class and saved it in the <br> &emsp; project. <br>
-&emsp; ![image](https://user-images.githubusercontent.com/111094536/199552822-3a9b459f-6df9-4d9a-9664-d72f02ced8fc.png) <br>
+&emsp; ![image](https://user-images.githubusercontent.com/111094536/199557562-05b4b275-f42f-43f3-a773-21fd3e478ef9.png) <br>
 ![image](https://user-images.githubusercontent.com/111094536/199553084-6a8c9eab-7818-4750-a10b-d62dbda1c0b9.png) <br> <hr>
 ### I used the configuration.properties file <br> <hr>
 ⚡I aimed to write cleaner code with this file <br>
