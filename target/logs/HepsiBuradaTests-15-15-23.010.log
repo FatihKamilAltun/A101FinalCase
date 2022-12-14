@@ -1,0 +1,5 @@
+2022-12-14 15:15:23,010 INFO t.h.HepsiBuradaTest02 [main] Kullanici, ayni urunu ikinci saticidan da sepete ekler
+2022-12-14 15:15:23,649 INFO t.h.HepsiBuradaTest02 [main] Kullanici, ekledigi urunleri dogrulamak icin sepetim sayfasina gider
+2022-12-14 15:15:26,348 INFO t.h.HepsiBuradaTest02 [main] Kullanici, 'Sepetim' sayfasinda oldugunu dogrular
+2022-12-14 15:15:27,317 INFO t.h.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi ilk urunun Sunzhennee saticisindan oldugunu dogrular
+2022-12-14 15:15:27,389 INFO t.h.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar

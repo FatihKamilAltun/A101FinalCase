@@ -1,0 +1,4 @@
+2022-12-14 15:15:27,453 INFO t.h.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi diger urunun Beauty Mao saticisindan oldugunu dogrular
+2022-12-14 15:15:27,498 INFO t.h.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar
+2022-12-14 15:15:27,523 INFO t.h.HepsiBuradaTest02 [main] Kullanici, sepetteki urunlerin ekran goruntuleri sayesinde manuel oalrak da dogrular
+2022-12-14 15:15:27,669 WARN t.h.HepsiBuradaTest02 [main] Kullanici, acilan tum sayfalari kapatarak test islemine son verir

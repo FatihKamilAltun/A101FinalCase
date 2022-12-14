@@ -1,0 +1,4 @@
+2022-11-14 21:01:26,173 INFO t.h.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi diger urunun Chumyea saticisindan oldugunu dogrular
+2022-11-14 21:01:26,231 INFO t.h.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar
+2022-11-14 21:01:26,271 INFO t.h.HepsiBuradaTest02 [main] Kullanici, sepetteki urunlerin ekran goruntuleri sayesinde manuel oalrak da dogrular
+2022-11-14 21:01:26,441 WARN t.h.HepsiBuradaTest02 [main] Kullanici, acilan tum sayfalari kapatarak test islemine son verir

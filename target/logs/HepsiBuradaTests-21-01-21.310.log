@@ -1,0 +1,5 @@
+2022-11-14 21:01:21,309 INFO t.h.HepsiBuradaTest02 [main] Kullanici, ayni urunu ikinci saticidan da sepete ekler
+2022-11-14 21:01:21,977 INFO t.h.HepsiBuradaTest02 [main] Kullanici, ekledigi urunleri dogrulamak icin sepetim sayfasina gider
+2022-11-14 21:01:25,225 INFO t.h.HepsiBuradaTest02 [main] Kullanici, 'Sepetim' sayfasinda oldugunu dogrular
+2022-11-14 21:01:25,999 INFO t.h.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi ilk urunun Fairy saticisindan oldugunu dogrular
+2022-11-14 21:01:26,084 INFO t.h.HepsiBuradaTest02 [main] Kullanici, sepete ekledigi urunun dogru urun oldugunu daha onceden aldigi urun adi ile karsilastirarak dogrulama yapar

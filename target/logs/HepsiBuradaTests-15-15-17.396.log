@@ -1,0 +1,4 @@
+2022-12-14 15:15:17,395 INFO t.h.HepsiBuradaTest02 [main] Kullanici, yeni sekmede acilan urunun basligini ileride kullanacagi icin String bir variable'a atar
+2022-12-14 15:15:19,507 INFO t.h.HepsiBuradaTest02 [main] Kullanici, urunu ilk saticidan sepete ekler
+2022-12-14 15:15:20,296 INFO t.h.HepsiBuradaTest02 [main] Kullanici, urun eklendikten sonra cikan bilgilendirme pop-up'ini kapatir
+2022-12-14 15:15:22,489 INFO t.h.HepsiBuradaTest02 [main] Kullanici, ikinci saticidan urun eklemek icin sayfayi asagiya kaydirir
